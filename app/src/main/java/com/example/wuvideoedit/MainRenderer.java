@@ -50,6 +50,7 @@ public class MainRenderer implements GLSurfaceView.Renderer {
     public void renderVideo() {
         String basePath = Environment.getExternalStorageDirectory().getPath();
         String videoPath = basePath + "/xiaolin.MP4";
+
         previewDecoderHandle = previewDecoderInit(videoPath);
         videoRenderHandle = videoRenderInit(basePath);
 
@@ -84,9 +85,9 @@ public class MainRenderer implements GLSurfaceView.Renderer {
         });
     }
     public native long previewDecoderInit(String basePath);
-    public native long videoRenderInit(String basePath);
     public native void videoPlayDecode(long previewDecoderHandle);
     public native void audioPlayDecode(long previewDecoderHandle);
+    public native long videoRenderInit(String basePath);
     public native void updateFrame(long previewDecoderHandle);
     public native void displayFrame(long videoRenderHandle, long frameHandle);
 }

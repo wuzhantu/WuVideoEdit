@@ -44,17 +44,6 @@ Java_com_example_wuvideoedit_MainRenderer_previewDecoderInit(
     return reinterpret_cast<jlong>(previewDecoder);
 }
 
-extern "C" JNIEXPORT jlong JNICALL
-Java_com_example_wuvideoedit_MainRenderer_videoRenderInit(
-        JNIEnv* env,
-        jobject /* this */,
-        jstring basePath) {
-    const char* basePathStr = env->GetStringUTFChars(basePath, NULL);
-    VideoRender *videoRender = new VideoRender(basePathStr);
-    videoRender->setupViewport(1080, 1080.0 / 1172.0 * 720);
-    return reinterpret_cast<jlong>(videoRender);
-}
-
 extern "C" JNIEXPORT void JNICALL
 Java_com_example_wuvideoedit_MainRenderer_videoPlayDecode(
         JNIEnv* env,
@@ -80,6 +69,17 @@ Java_com_example_wuvideoedit_MainRenderer_audioPlayDecode(
         PreviewDecoder *previewDecoder = reinterpret_cast<PreviewDecoder *>(previewDecoderHandle);
         previewDecoder->audioPlayDecode();
     }
+}
+
+extern "C" JNIEXPORT jlong JNICALL
+Java_com_example_wuvideoedit_MainRenderer_videoRenderInit(
+        JNIEnv* env,
+        jobject /* this */,
+        jstring basePath) {
+    const char* basePathStr = env->GetStringUTFChars(basePath, NULL);
+    VideoRender *videoRender = new VideoRender(basePathStr);
+    videoRender->setupViewport(1080, 1080.0 / 1172.0 * 720);
+    return reinterpret_cast<jlong>(videoRender);
 }
 
 extern "C" JNIEXPORT void JNICALL

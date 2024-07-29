@@ -77,6 +77,15 @@ public class EditActivity extends AppCompatActivity {
         videoThread.start();
     }
 
+    void refreshCells() {
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                recyclerViewAdapter.notifyDataSetChanged();
+            }
+        });
+    }
+
     Bitmap getBitmap(int row) {
 
         // 初始化 Bitmap 和 Buffer
@@ -93,15 +102,6 @@ public class EditActivity extends AppCompatActivity {
         bitmap.copyPixelsFromBuffer(ByteBuffer.wrap(buffer));
 
         return bitmap;
-    }
-
-    void refreshCells() {
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                recyclerViewAdapter.notifyDataSetChanged();
-            }
-        });
     }
 
     public native long timeLineDecoderInit(String basePath);

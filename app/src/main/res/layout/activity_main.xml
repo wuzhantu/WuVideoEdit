@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="150dp"
         android:layout_marginLeft="150dp"
         android:text="开始创作"
         />
