@@ -6,25 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <android.opengl.GLSurfaceView
-        android:id="@+id/videoSuraceView"
-        android:layout_width="match_parent"
-        android:layout_height="253dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="80dp"
-        />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/videoRecyclerView"
+    <Button
+        android:id="@+id/startEditButton"
         android:layout_width="wrap_content"
-        android:layout_height="52dp"
-        android:background="#00FF00"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/videoSuraceView"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginTop="100dp"
+        android:layout_marginLeft="150dp"
+        android:text="开始创作"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -107,7 +107,7 @@ Java_com_example_wuvideoedit_MainRenderer_displayFrame(
 }
 
 extern "C" JNIEXPORT jlong JNICALL
-Java_com_example_wuvideoedit_MainActivity_timeLineDecoderInit(
+Java_com_example_wuvideoedit_EditActivity_timeLineDecoderInit(
         JNIEnv* env,
         jobject thisObj,
         jstring videoPath) {
@@ -119,7 +119,7 @@ Java_com_example_wuvideoedit_MainActivity_timeLineDecoderInit(
 }
 
 extern "C" JNIEXPORT void JNICALL
-Java_com_example_wuvideoedit_MainActivity_timeLineDecode(
+Java_com_example_wuvideoedit_EditActivity_timeLineDecode(
         JNIEnv* env,
         jobject thisObj,
         jlong timeLineDecoderHandle) {
@@ -144,7 +144,7 @@ Java_com_example_wuvideoedit_MainActivity_timeLineDecode(
 }
 
 extern "C" JNIEXPORT void JNICALL
-Java_com_example_wuvideoedit_MainActivity_getTimeLineFrame(
+Java_com_example_wuvideoedit_EditActivity_getTimeLineFrame(
         JNIEnv* env,
         jobject obj,
         jlong timeLineDecoderHandle,

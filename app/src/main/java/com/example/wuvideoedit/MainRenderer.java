@@ -1,5 +1,6 @@
 package com.example.wuvideoedit;
 
+import android.content.Context;
 import android.opengl.GLSurfaceView;
 import android.os.Environment;
 import android.os.Handler;
@@ -16,7 +17,6 @@ public class MainRenderer implements GLSurfaceView.Renderer {
 
     private long videoRenderHandle;
     private long previewDecoderHandle;
-    private long displayFrameHandle;
     private GLSurfaceView glSurfaceView;
     private Choreographer.FrameCallback frameCallback;
     private Handler updateHandler = new Handler();
@@ -34,6 +34,20 @@ public class MainRenderer implements GLSurfaceView.Renderer {
 
     @Override
     public void onSurfaceCreated(GL10 gl10, EGLConfig eglConfig) {
+        renderVideo();
+    }
+
+    @Override
+    public void onSurfaceChanged(GL10 gl10, int i, int i1) {
+
+    }
+
+    @Override
+    public void onDrawFrame(GL10 gl10) {
+
+    }
+
+    public void renderVideo() {
         String basePath = Environment.getExternalStorageDirectory().getPath();
         String videoPath = basePath + "/xiaolin.MP4";
         previewDecoderHandle = previewDecoderInit(videoPath);
@@ -56,16 +70,6 @@ public class MainRenderer implements GLSurfaceView.Renderer {
         audioThread.start();
 
         updateHandler.post(updateRunnable);
-    }
-
-    @Override
-    public void onSurfaceChanged(GL10 gl10, int i, int i1) {
-
-    }
-
-    @Override
-    public void onDrawFrame(GL10 gl10) {
-
     }
 
     void updateFrame() {

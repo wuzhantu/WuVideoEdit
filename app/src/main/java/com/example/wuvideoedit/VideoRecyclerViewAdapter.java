@@ -28,7 +28,7 @@ public class VideoRecyclerViewAdapter extends RecyclerView.Adapter {
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
         VideoViewHolder viewHolder = (VideoViewHolder) holder;
-        MainActivity activity = (MainActivity) context;
+        EditActivity activity = (EditActivity) context;
         Bitmap bitmap = activity.getBitmap(position);
         viewHolder.imgView.setImageBitmap(bitmap);
     }
