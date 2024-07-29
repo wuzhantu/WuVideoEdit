@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "wuvideoedit",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "wuvideoedit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wuvideoedit-Debug-f971deba5c22f19e5c8c.json",
+					"name" : "wuvideoedit",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/zhantuwu/Desktop/\u6bcf\u65e5\u575a\u6301/Android/WuVideoEdit/app/.cxx/Debug/515v2t4l/x86",
+		"source" : "/Users/zhantuwu/Desktop/\u6bcf\u65e5\u575a\u6301/Android/WuVideoEdit/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

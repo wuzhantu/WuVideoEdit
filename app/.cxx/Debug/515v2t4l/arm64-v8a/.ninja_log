@@ -1,0 +1,19 @@
+# ninja log v5
+5	431	1722224735055244988	CMakeFiles/wuvideoedit.dir/TuVideoSDK/VideoRenderConfig.cpp.o	3ed4886790189480
+432	1272	1722224735904010178	CMakeFiles/wuvideoedit.dir/TuVideoSDK/stb_image.cpp.o	355f151dd6e1b610
+4	1418	1722224736046890295	CMakeFiles/wuvideoedit.dir/TuVideoSDK/TuSemaphore.cpp.o	78848aa05c33382d
+5	1668	1722224736293172779	CMakeFiles/wuvideoedit.dir/TuVideoSDK/TuTimer.cpp.o	6b1f7179ac8879de
+2	1786	1722224736422936701	CMakeFiles/wuvideoedit.dir/TuVideoSDK/DecoderContext.cpp.o	15dead7249645aee
+2	1813	1722224736448630889	CMakeFiles/wuvideoedit.dir/TuVideoSDK/DecoderContextPool.cpp.o	8f8efa953eb39ef
+3	2093	1722224736722085583	CMakeFiles/wuvideoedit.dir/TuVideoSDK/PreviewDecoder.cpp.o	a417bd62611a9707
+3	2094	1722224736718918210	CMakeFiles/wuvideoedit.dir/TuVideoSDK/TimeLineDecoder.cpp.o	c22ae40ab7481be1
+2	2129	1722224736765896438	CMakeFiles/wuvideoedit.dir/TuVideoSDK/ExportVideo.cpp.o	64a3f7f085d8c70a
+1	2341	1722224736974817270	CMakeFiles/wuvideoedit.dir/native-lib.cpp.o	c08f5f45cdebaff2
+5	2436	1722224737064762907	CMakeFiles/wuvideoedit.dir/TuVideoSDK/VideoRender.cpp.o	4283e9ef2a3f3cb6
+2436	2718	1722224737340353988	/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/build/intermediates/cxx/Debug/515v2t4l/obj/arm64-v8a/libwuvideoedit.so	ddd76822030261b4
+8	1528	1722225592449666728	CMakeFiles/wuvideoedit.dir/native-lib.cpp.o	c08f5f45cdebaff2
+1529	1872	1722225592779936235	/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/build/intermediates/cxx/Debug/515v2t4l/obj/arm64-v8a/libwuvideoedit.so	ddd76822030261b4
+12	1615	1722228581827144263	CMakeFiles/wuvideoedit.dir/native-lib.cpp.o	c08f5f45cdebaff2
+1615	1927	1722228582104741645	/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/build/intermediates/cxx/Debug/515v2t4l/obj/arm64-v8a/libwuvideoedit.so	ddd76822030261b4
+10	1463	1722230962509848231	CMakeFiles/wuvideoedit.dir/native-lib.cpp.o	c08f5f45cdebaff2
+1463	1821	1722230962841083109	/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/build/intermediates/cxx/Debug/515v2t4l/obj/arm64-v8a/libwuvideoedit.so	ddd76822030261b4

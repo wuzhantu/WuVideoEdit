@@ -1,0 +1,3 @@
+/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/.cxx/Debug/515v2t4l/arm64-v8a/CMakeFiles/wuvideoedit.dir
+/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/.cxx/Debug/515v2t4l/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/.cxx/Debug/515v2t4l/arm64-v8a/CMakeFiles/rebuild_cache.dir

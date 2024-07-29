@@ -1,0 +1,41 @@
+{
+  "buildFiles": [
+    "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/zhantuwu/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/.cxx/Debug/515v2t4l/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/zhantuwu/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/.cxx/Debug/515v2t4l/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "wuvideoedit::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "wuvideoedit",
+      "output": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/build/intermediates/cxx/Debug/515v2t4l/obj/x86/libwuvideoedit.so",
+      "runtimeFiles": [
+        "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/jniLibs/x86/libffmpeg.so",
+        "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/jniLibs/x86/libfreetype.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

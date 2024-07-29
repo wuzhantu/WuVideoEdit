@@ -1,0 +1,18 @@
+                        -H/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=24
+-DANDROID_PLATFORM=android-24
+-DANDROID_ABI=arm64-v8a
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DANDROID_NDK=/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125
+-DCMAKE_ANDROID_NDK=/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125
+-DCMAKE_TOOLCHAIN_FILE=/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/zhantuwu/Library/Android/sdk/cmake/3.22.1/bin/ninja
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/build/intermediates/cxx/Debug/515v2t4l/obj/arm64-v8a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/build/intermediates/cxx/Debug/515v2t4l/obj/arm64-v8a
+-DCMAKE_BUILD_TYPE=Debug
+-B/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/.cxx/Debug/515v2t4l/arm64-v8a
+-GNinja
+                        Build command args: []
+                        Version: 2

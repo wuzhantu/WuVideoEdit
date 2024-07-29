@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/.cxx/Debug/515v2t4l/arm64-v8a",
+  "command": "/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android24 --sysroot=/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dwuvideoedit_EXPORTS -I/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/wuvideoedit.dir/native-lib.cpp.o -c /Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/native-lib.cpp",
+  "file": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/native-lib.cpp"
+},
+{
+  "directory": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/.cxx/Debug/515v2t4l/arm64-v8a",
+  "command": "/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android24 --sysroot=/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dwuvideoedit_EXPORTS -I/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/wuvideoedit.dir/TuVideoSDK/DecoderContext.cpp.o -c /Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/TuVideoSDK/DecoderContext.cpp",
+  "file": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/TuVideoSDK/DecoderContext.cpp"
+},
+{
+  "directory": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/.cxx/Debug/515v2t4l/arm64-v8a",
+  "command": "/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android24 --sysroot=/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dwuvideoedit_EXPORTS -I/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/wuvideoedit.dir/TuVideoSDK/DecoderContextPool.cpp.o -c /Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/TuVideoSDK/DecoderContextPool.cpp",
+  "file": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/TuVideoSDK/DecoderContextPool.cpp"
+},
+{
+  "directory": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/.cxx/Debug/515v2t4l/arm64-v8a",
+  "command": "/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android24 --sysroot=/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dwuvideoedit_EXPORTS -I/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/wuvideoedit.dir/TuVideoSDK/ExportVideo.cpp.o -c /Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/TuVideoSDK/ExportVideo.cpp",
+  "file": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/TuVideoSDK/ExportVideo.cpp"
+},
+{
+  "directory": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/.cxx/Debug/515v2t4l/arm64-v8a",
+  "command": "/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android24 --sysroot=/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dwuvideoedit_EXPORTS -I/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/wuvideoedit.dir/TuVideoSDK/PreviewDecoder.cpp.o -c /Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/TuVideoSDK/PreviewDecoder.cpp",
+  "file": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/TuVideoSDK/PreviewDecoder.cpp"
+},
+{
+  "directory": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/.cxx/Debug/515v2t4l/arm64-v8a",
+  "command": "/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android24 --sysroot=/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dwuvideoedit_EXPORTS -I/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/wuvideoedit.dir/TuVideoSDK/TimeLineDecoder.cpp.o -c /Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/TuVideoSDK/TimeLineDecoder.cpp",
+  "file": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/TuVideoSDK/TimeLineDecoder.cpp"
+},
+{
+  "directory": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/.cxx/Debug/515v2t4l/arm64-v8a",
+  "command": "/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android24 --sysroot=/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dwuvideoedit_EXPORTS -I/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/wuvideoedit.dir/TuVideoSDK/TuSemaphore.cpp.o -c /Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/TuVideoSDK/TuSemaphore.cpp",
+  "file": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/TuVideoSDK/TuSemaphore.cpp"
+},
+{
+  "directory": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/.cxx/Debug/515v2t4l/arm64-v8a",
+  "command": "/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android24 --sysroot=/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dwuvideoedit_EXPORTS -I/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/wuvideoedit.dir/TuVideoSDK/TuTimer.cpp.o -c /Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/TuVideoSDK/TuTimer.cpp",
+  "file": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/TuVideoSDK/TuTimer.cpp"
+},
+{
+  "directory": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/.cxx/Debug/515v2t4l/arm64-v8a",
+  "command": "/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android24 --sysroot=/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dwuvideoedit_EXPORTS -I/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/wuvideoedit.dir/TuVideoSDK/VideoRender.cpp.o -c /Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/TuVideoSDK/VideoRender.cpp",
+  "file": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/TuVideoSDK/VideoRender.cpp"
+},
+{
+  "directory": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/.cxx/Debug/515v2t4l/arm64-v8a",
+  "command": "/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android24 --sysroot=/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dwuvideoedit_EXPORTS -I/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/wuvideoedit.dir/TuVideoSDK/VideoRenderConfig.cpp.o -c /Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/TuVideoSDK/VideoRenderConfig.cpp",
+  "file": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/TuVideoSDK/VideoRenderConfig.cpp"
+},
+{
+  "directory": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/.cxx/Debug/515v2t4l/arm64-v8a",
+  "command": "/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android24 --sysroot=/Users/zhantuwu/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dwuvideoedit_EXPORTS -I/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/wuvideoedit.dir/TuVideoSDK/stb_image.cpp.o -c /Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/TuVideoSDK/stb_image.cpp",
+  "file": "/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/src/main/cpp/TuVideoSDK/stb_image.cpp"
+}
+]
