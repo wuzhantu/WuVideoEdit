@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+        copyAllAssetToSdCard();
+
         setupView();
         timeLineLoad();
 
@@ -42,6 +44,23 @@ public class MainActivity extends AppCompatActivity {
         glSurfaceView.setEGLContextClientVersion(3);
         glSurfaceView.setRenderer(mainRenderer);
 //        glSurfaceView.setRenderMode(GLSurfaceView.RENDERMODE_WHEN_DIRTY);
+    }
+
+    void copyAllAssetToSdCard() {
+        copyAssetToSdCard("frame.vs");
+        copyAssetToSdCard("frame.fs");
+        copyAssetToSdCard("sticker.vs");
+        copyAssetToSdCard("sticker.fs");
+        copyAssetToSdCard("text.vs");
+        copyAssetToSdCard("text.fs");
+        copyAssetToSdCard("xiaolin.MP4");
+    }
+
+    void copyAssetToSdCard(String filename) {
+        String assetFileName = filename; // 需要复制的assets文件名
+        String outputPath = FileUtils.getExternalStoragePath() + "/" + filename; // 输出路径
+
+        FileUtils.copyAssetToSdCard(this, assetFileName, outputPath);
     }
 
     void setupView() {

@@ -1,13 +1,13 @@
 # ninja log v5
-8	126	1722236203424012464	CMakeFiles/wuvideoedit.dir/TuVideoSDK/VideoRenderConfig.cpp.o	3ed4886790189480
-126	1040	1722236204334252564	CMakeFiles/wuvideoedit.dir/TuVideoSDK/stb_image.cpp.o	355f151dd6e1b610
-5	1158	1722236204453661188	CMakeFiles/wuvideoedit.dir/TuVideoSDK/TuSemaphore.cpp.o	78848aa05c33382d
-1	1193	1722236204488586384	CMakeFiles/wuvideoedit.dir/TuVideoSDK/DecoderContext.cpp.o	15dead7249645aee
-5	1204	1722236204500152283	CMakeFiles/wuvideoedit.dir/TuVideoSDK/TuTimer.cpp.o	6b1f7179ac8879de
-4	1266	1722236204558455232	CMakeFiles/wuvideoedit.dir/TuVideoSDK/TimeLineDecoder.cpp.o	c22ae40ab7481be1
-3	1278	1722236204572943981	CMakeFiles/wuvideoedit.dir/TuVideoSDK/DecoderContextPool.cpp.o	8f8efa953eb39ef
-4	1313	1722236204607477388	CMakeFiles/wuvideoedit.dir/TuVideoSDK/ExportVideo.cpp.o	64a3f7f085d8c70a
-4	1367	1722236204657219120	CMakeFiles/wuvideoedit.dir/TuVideoSDK/PreviewDecoder.cpp.o	a417bd62611a9707
-0	1461	1722236204755643345	CMakeFiles/wuvideoedit.dir/native-lib.cpp.o	c08f5f45cdebaff2
-6	1479	1722236204771052502	CMakeFiles/wuvideoedit.dir/TuVideoSDK/VideoRender.cpp.o	4283e9ef2a3f3cb6
-1479	1538	1722236204821747435	/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/build/intermediates/cxx/Debug/515v2t4l/obj/arm64-v8a/libwuvideoedit.so	ddd76822030261b4
+4	123	1722236427889634734	CMakeFiles/wuvideoedit.dir/TuVideoSDK/VideoRenderConfig.cpp.o	3ed4886790189480
+123	833	1722236428595270785	CMakeFiles/wuvideoedit.dir/TuVideoSDK/stb_image.cpp.o	355f151dd6e1b610
+3	1162	1722236428921851019	CMakeFiles/wuvideoedit.dir/TuVideoSDK/TuSemaphore.cpp.o	78848aa05c33382d
+2	1220	1722236428976339835	CMakeFiles/wuvideoedit.dir/TuVideoSDK/DecoderContext.cpp.o	15dead7249645aee
+3	1320	1722236429082329410	CMakeFiles/wuvideoedit.dir/TuVideoSDK/TuTimer.cpp.o	6b1f7179ac8879de
+2	1340	1722236429101076955	CMakeFiles/wuvideoedit.dir/TuVideoSDK/ExportVideo.cpp.o	64a3f7f085d8c70a
+2	1356	1722236429119567418	CMakeFiles/wuvideoedit.dir/TuVideoSDK/DecoderContextPool.cpp.o	8f8efa953eb39ef
+2	1418	1722236429179847559	CMakeFiles/wuvideoedit.dir/TuVideoSDK/PreviewDecoder.cpp.o	a417bd62611a9707
+3	1432	1722236429193531440	CMakeFiles/wuvideoedit.dir/TuVideoSDK/TimeLineDecoder.cpp.o	c22ae40ab7481be1
+1	1438	1722236429200971125	CMakeFiles/wuvideoedit.dir/native-lib.cpp.o	c08f5f45cdebaff2
+3	1587	1722236429345733070	CMakeFiles/wuvideoedit.dir/TuVideoSDK/VideoRender.cpp.o	4283e9ef2a3f3cb6
+1587	1657	1722236429410308506	/Users/zhantuwu/Desktop/每日坚持/Android/WuVideoEdit/app/build/intermediates/cxx/Debug/515v2t4l/obj/arm64-v8a/libwuvideoedit.so	ddd76822030261b4
